@@ -1,20 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+/* cursor */
 ::-webkit-scrollbar {
   width: 3px; /* Adjust the width as desired */
 }
 
 ::-webkit-scrollbar-thumb {
   background: black; /* Color of the scrollbar thumb */
-  border-radius: 6px; /* Rounded corners for the thumb */
+  border-radius: 15px; /* Rounded corners for the thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #F57500; /* Color of the scrollbar thumb on hover */
+  background: #279EFF; /* Color of the scrollbar thumb on hover */
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
-/* cursor */
-
 /* cursor */
 
 * {
