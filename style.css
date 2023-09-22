@@ -1,5 +1,22 @@
+::-webkit-scrollbar {
+  width: 3px; /* Adjust the width as desired */
+}
+
+::-webkit-scrollbar-thumb {
+  background: black; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F57500; /* Color of the scrollbar thumb on hover */
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+/* cursor */
+
+/* cursor */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +26,14 @@
 
 body {
   line-height: 1.6;
+  background-color: #F5FCCD;
 }
 h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
   margin: 40px 0 60px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 form {
   display: flex;
@@ -44,6 +63,12 @@ form {
   border-radius: 5px;
   margin-left: 10px;
 }
+#search-button:hover{
+  background-color: #279EFF;
+  color: #fff;
+  font-weight: bold;
+}
+
 .search-results {
   display: flex;
   justify-content: space-between;
@@ -79,7 +104,7 @@ form {
   text-transform: capitalize;
 }
 #show-more-button {
-  background-color: #008cba;
+  background-color: #138085;
   font-size: 18px;
   border: none;
   color: #fff;
@@ -91,6 +116,12 @@ form {
   cursor: pointer;
   display: none;
 }
+#show-more-button:hover{
+  background-color: #279EFF;
+  color: #fff;
+  font-weight: bold;
+}
+
 
 @media screen and (max-width: 768px) {
     .search-results {
